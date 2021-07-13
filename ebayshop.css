@@ -14,16 +14,16 @@
 
 .body {
     border-top-style: none;
-    border-top-width: 0px;
+    border-top-width: 0rem;
     border-top-color: black;
     border-right-style: none;
-    border-right-width: 0px;
+    border-right-width: 0rem;
     border-right-color: black;
     border-bottom-style: none;
-    border-bottom-width: 0px;
+    border-bottom-width: 0rem;
     border-bottom-color: black;
     border-left-style: none;
-    border-left-width: 0px;
+    border-left-width: 0rem;
     border-left-color: black;
     background-color: hsla(233.3333333333333, 11.11%, 15.88%, 1.00);
 }
@@ -96,7 +96,7 @@
     grid-auto-columns: 1fr;
     grid-column-gap: 4.375rem;
     grid-row-gap: 1.625rem;
-    grid-template-columns: repeat(5,200px);
+    grid-template-columns: repeat(5,12.5rem);
     grid-template-rows: auto auto;
 }
 
@@ -139,8 +139,8 @@
 
 .back_button {
     color: black;
-    width: 0px;
-    height: 0px;
+    width: 0rem;
+    height: 0rem;
     border: 1.5rem solid;
     border-top: 1.732rem solid transparent;
     border-right: 1rem solid transparent;

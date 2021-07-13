@@ -25,8 +25,8 @@ h1{
 
 .back_button {
     color: black;
-    width: 0px;
-    height: 0px;
+    width: 0rem;
+    height: 0rem;
     border: 1.5rem solid;
     border-top-color: transparent;
     border-right-color: transparent;
@@ -48,8 +48,8 @@ h1{
 
 .back_button1 {
     color: black;
-    width: 0px;
-    height: 0px;
+    width: 0rem;
+    height: 0rem;
     border: 1.5rem solid;
     border-top-color: transparent;
     border-right-color: turquoise;
@@ -71,8 +71,8 @@ h1{
 
 .back_button2 {
     color: black;
-    width: 0px;
-    height: 0px;
+    width: 0rem;
+    height: 0rem;
     border: 1.5rem solid;
     border-top-color: transparent;
     border-right-color: turquoise;
