@@ -196,6 +196,7 @@
 }
   
 .div-block-6 {
+    position: inherit;
     width: 680px;
     margin-top: 16px;
 }
