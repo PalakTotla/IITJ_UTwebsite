@@ -33,10 +33,7 @@
     border-left-style: solid;
     border-left-width: 0.0625rem;
     border-left-color: transparent;
-    border-top-left-radius: 0.8125rem;
-    border-top-right-radius: 0.8125rem;
-    border-bottom-left-radius: 0.8125rem;
-    border-bottom-right-radius: 0.8125rem;
+    border-radius: 0.8125rem;
     background-color: hsla(248.5714, 11.86%, 11.57%, 1.00);
     font-family: Montserrat;
     color: hsla(0, 1.39%, 75.66%, 1.00);
@@ -75,10 +72,7 @@
     border-left-style: solid;
     border-left-width: 0.0625rem;
     border-left-color: hsla(0, 3.23%, 4.52%, 1.00);
-    border-top-left-radius: 0.9375rem;
-    border-top-right-radius: 0.9375rem;
-    border-bottom-left-radius: 0.9375rem;
-    border-bottom-right-radius: 0.9375rem;
+    border-radius: 0.9375rem;
     background-color: #f2f2f2;
     font-family: Montserrat;
     color: hsla(0, 0.00%, 3.33%, 1.00);
@@ -161,10 +155,7 @@
     max-width: 8.4em;
     margin-right: 0rem;
     padding-right: 0rem;
-    border-top-left-radius: 7.6875rem;
-    border-top-right-radius: 7.6875rem;
-    border-bottom-left-radius: 7.6875rem;
-    border-bottom-right-radius: 7.6875rem;
+    border-radius: 7.6875rem;
 }
 
 .heading-2 {
@@ -218,13 +209,11 @@
 .button-4 {
     padding-top: 0.9375rem;
     margin-top: 1.5625rem;
-    border-top-left-radius: 0.75rem;
-    border-top-right-radius: 0.75rem;
-    border-bottom-left-radius: 0.75rem;
-    border-bottom-right-radius: 0.75rem;    
+    border-radius: 0.75rem;    
     width: 5.625rem;
     height: 2.313rem;
     background-color: hsla(248.5714, 11.86%, 11.57%, 1.00);
+    color: white;
     font-family: Montserrat;
     align-self: center;
     text-align: center;
