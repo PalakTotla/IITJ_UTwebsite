@@ -278,10 +278,7 @@
     grid-template-areas: "Area Area-2 Area-3 Area-4";
     grid-template-columns: 0.25fr 0.25fr 0.25fr;
     grid-template-rows: auto auto;
-    border-top-left-radius: 0.9375rem;
-    border-top-right-radius: 0.9375rem;
-    border-bottom-left-radius: 0.9375rem;
-    border-bottom-right-radius: 0.9375rem;
+    border-radius: 0.9375rem;
 }
   
 .section-3:small {
@@ -416,8 +413,8 @@
 
 .Button {
     position: fixed;
-    right: 5%;
-    bottom: 12%;
+    right: 6%;
+    bottom: 15%;
     transform: translate(-100%, -0%);
 }
 
