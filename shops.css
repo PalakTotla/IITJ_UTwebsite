@@ -39,7 +39,7 @@ p {
 .name:hover{
     color: grey;
     font-weight: 500;
-    font-size: 3.5rem;
+    font-size: 3rem;
     /* transition: font-size ease; */
     transition: 0.3s ease-in-out;
 }
