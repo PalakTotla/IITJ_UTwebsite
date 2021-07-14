@@ -21,18 +21,9 @@
     flex-grow: 7;
     flex-shrink: 1;
     flex-basis: auto;
-    border-top-style: solid;
-    border-top-width: 0.0625rem;
-    border-top-color: transparent;
-    border-right-style: solid;
-    border-right-width: 0.0625rem;
-    border-right-color: transparent;
-    border-bottom-style: solid;
-    border-bottom-width: 0.0625rem;
-    border-bottom-color: transparent;
-    border-left-style: solid;
-    border-left-width: 0.0625rem;
-    border-left-color: transparent;
+    border-style: solid;
+    border-width: 0.0625rem;
+    border-color: transparent;    
     border-radius: 0.8125rem;
     background-color: hsla(248.5714, 11.86%, 11.57%, 1.00);
     font-family: Montserrat;
@@ -60,20 +51,11 @@
     grid-auto-columns: 1fr;
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: auto auto auto;
-    border-top-style: solid;
-    border-top-width: 0.0625rem;
-    border-top-color: hsla(0, 3.23%, 4.52%, 1.00);
-    border-right-style: solid;
-    border-right-width: 0.0625rem;
-    border-right-color: hsla(0, 3.23%, 4.52%, 1.00);
-    border-bottom-style: solid;
-    border-bottom-width: 0.0625rem;
-    border-bottom-color: hsla(0, 3.23%, 4.52%, 1.00);
-    border-left-style: solid;
-    border-left-width: 0.0625rem;
-    border-left-color: hsla(0, 3.23%, 4.52%, 1.00);
+    border-style: solid;
+    border-width: 0.0625rem;
+    border-color: hsla(0, 3.23%, 4.52%, 1.00);    
     border-radius: 0.9375rem;
-    background-color: #f2f2f2;
+    background-color: #b798c1;
     font-family: Montserrat;
     color: hsla(0, 0.00%, 3.33%, 1.00);
   }
@@ -105,9 +87,10 @@
     display: -webkit-flex;
     display: -ms-flexbox;    
     display: flex;
-    width: 80vw;
+    background: cover;
     margin-top: 3rem;
-    margin-left: 5%;
+    margin-left: 5rem;
+    margin-right: 5rem;
     justify-content: space-between;
     grid-template-rows: auto auto;
     object-fit: fill;
@@ -124,9 +107,10 @@
     padding-bottom: 0rem;
     padding-left: 2rem;
     border-radius: 1rem;
-    background-color: hsla(0, 0.00%, 94.90%, 1.00);
+    background-color: #b798c1;
     font-family: Montserrat;
     color: hsla(0, 0.00%, 0.00%, 1.00);
+    float: right;
 }
 
 .body-2 {
@@ -134,8 +118,7 @@
 }
 
 .div-block-3 {
-    width: 80vw;
-    height: 100vh;
+    background: cover;
     margin: 5%;
     padding-top: 5%;
     padding-left: 5%;
@@ -190,6 +173,7 @@
     position: inherit;
     width: 42.5rem;
     margin-top: 1rem;
+    padding: 0.5rem;
 }
 
 .heading-4 {
@@ -218,3 +202,45 @@
     align-self: center;
     text-align: center;
 }
+
+.back_button {
+    color: black;
+    width: 0rem;
+    height: 0rem;
+    border: 1.5rem solid;
+    border-top: 1.732rem solid transparent;
+    border-right: 1rem solid transparent;
+    border-bottom: 1.732rem solid #b798c1;
+    border-left: 1rem solid transparent;
+    display: flex;
+    float: right;
+    transform: translate(-100%, -0%);
+    margin-right: -10%;
+}
+
+/* .Button {
+    position: fixed;
+    right: 6%;
+    bottom: 15%;
+    transform: translate(-100%, -0%);
+} */
+
+.back_button1 {
+    color: black;
+    width: 0rem;
+    height: 0rem;
+    border: 1.5rem solid;
+    border-top: 1rem solid transparent;
+    border-right: 1.732rem solid turquoise;
+    border-bottom: 1rem solid transparent;
+    border-left: 1.732rem solid transparent;
+    float: right;    
+    display: flex;
+    transform: translate(-100%, -0%);
+    transform: rotate(45deg);
+    
+}
+
+/* .Button1 {
+    position: fixed;    
+} */

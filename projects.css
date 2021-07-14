@@ -5,19 +5,10 @@
     max-width: 63.313rem;
     min-height: 7.813rem;
     min-width: 63.313rem;
-    border-top-style: none;
-    border-top-width: 0rem;
-    border-top-color: black;
-    border-right-style: none;
-    border-right-width: 0rem;
-    border-right-color: black;
-    border-bottom-style: none;
-    border-bottom-width: 0rem;
-    border-bottom-color: black;
-    border-left-style: none;
-    border-left-width: 0rem;
-    border-left-color: black;
-    background-color: hsla(233.3333333333333, 11.11%, 15.88%, 1.00);
+    border-style: none;
+    border-width: 0rem;
+    border-color: black;    
+    background-color: hsla(233.3333333333333, 11.11%, 15.88%, 1.00);    
 }
 
 .utility-page-wrap{
@@ -25,7 +16,7 @@
     display: -webkit-flex;
     display: -ms-flexbox;
     display: flex;
-    width: 100 vw;
+    width: 100vw;
     height: 100vh;
     max-height: 100%;
     max-width: 100%;
@@ -78,18 +69,9 @@
     flex-grow: 7;
     flex-shrink: 1;
     flex-basis: auto;
-    border-top-style: solid;
-    border-top-width: 0.0625rem;
-    border-top-color: transparent;
-    border-right-style: solid;
-    border-right-width: 0.0625rem;
-    border-right-color: transparent;
-    border-bottom-style: solid;
-    border-bottom-width: 0.0625rem;
-    border-bottom-color: transparent;
-    border-left-style: solid;
-    border-left-width: 0.0625rem;
-    border-left-color: transparent;
+    border-style: solid;
+    border-width: 0.0625rem;
+    border-color: transparent;    
     border-radius: 0.8125rem;
     background-color: hsla(248.57142857142853, 11.86%, 11.57%, 1.00);
     font-family: Montserrat;
@@ -117,23 +99,11 @@
     grid-auto-columns: 1fr;
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: auto auto auto;
-    border-top-style: solid;
-    border-top-width: 0.0625rem;
-    border-top-color: hsla(0, 3.23%, 4.52%, 1.00);
-    border-right-style: solid;
-    border-right-width: 0.0625rem;
-    border-right-color: hsla(0, 3.23%, 4.52%, 1.00);
-    border-bottom-style: solid;
-    border-bottom-width: 0.0625rem;
-    border-bottom-color: hsla(0, 3.23%, 4.52%, 1.00);
-    border-left-style: solid;
-    border-left-width: 0.0625rem;
+    border-style: solid;
+    border-width: 0.0625rem;    
     border-left-color: hsla(0, 3.23%, 4.52%, 1.00);
-    border-top-left-radius: 0.9375rem;
-    border-top-right-radius: 0.9375rem;
-    border-bottom-left-radius: 0.9375rem;
-    border-bottom-right-radius: 0.9375rem;
-    background-color: #f2f2f2;
+    border-radius: 0.9375rem;
+    background-color: #b798c1;
     font-family: Montserrat;
     color: hsla(0, 0.00%, 3.33%, 1.00);
   }
@@ -182,11 +152,8 @@
     padding-right: 1.875rem;
     padding-bottom: 0rem;
     padding-left: 1.875rem;
-    border-top-left-radius: 0.9375rem;
-    border-top-right-radius: 0.9375rem;
-    border-bottom-left-radius: 0.9375rem;
-    border-bottom-right-radius: 0.9375rem;
-    background-color: hsla(0, 0.00%, 94.90%, 1.00);
+    border-radius: 0.9375rem;
+    background-color: #b798c1;
     font-family: Montserrat;
     color: hsla(0, 0.00%, 0.00%, 1.00);
 }
@@ -209,22 +176,10 @@
     padding-right: 0.9375rem;
     padding-bottom: 0rem;
     padding-left: 0.9375rem;
-    border-top-style: solid;
-    border-top-width: 0.0625rem;
-    border-top-color: transparent;
-    border-right-style: solid;
-    border-right-width: 0.0625rem;
-    border-right-color: transparent;
-    border-bottom-style: solid;
-    border-bottom-width: 0.0625rem;
-    border-bottom-color: transparent;
-    border-left-style: solid;
-    border-left-width: 0.0625rem;
-    border-left-color: transparent;
-    border-top-left-radius: 0.9375rem;
-    border-top-right-radius: 0.9375rem;
-    border-bottom-left-radius: 0.9375rem;
-    border-bottom-right-radius: 0.9375rem;
+    border-style: solid;
+    border-width: 0.0625rem;
+    border-color: transparent;    
+    border-radius: 0.9375rem;    
     color: rgb(255, 255, 255);     
     font-family: Montserrat;
     text-align: center;
@@ -234,7 +189,6 @@
 
 .button-2:link:hover{
     background-color: hsla(248.5714, 11.86%, 11.57%, 1.00);
-
 }
 
 .button-2:visited {
@@ -244,18 +198,9 @@
     height: 2.5rem;
     margin-right: 1.5625rem;
     padding: 1.25rem 1rem 0 1rem;
-    border-top-style: solid;
-    border-top-width: 0.0625rem;
-    border-top-color: transparent;
-    border-right-style: solid;
-    border-right-width: 0.0625rem;
-    border-right-color: transparent;
-    border-bottom-style: solid;
-    border-bottom-width: 0.0625rem;
-    border-bottom-color: transparent;
-    border-left-style: solid;
-    border-left-width: 0.0625rem;
-    border-left-color: transparent;
+    border-style: solid;
+    border-width: 0.0625rem;
+    border-color: transparent;   
     border-radius: 1rem;
     background-color: hsla(248.5714, 11.86%, 11.57%, 1.00);
     color: rgb(255, 255, 255);    ;
@@ -348,10 +293,7 @@
 .image {
     display: center;
     width: 5.6875rem;
-    border-top-left-radius: 10.9375rem;
-    border-top-right-radius: 10.9375rem;
-    border-bottom-left-radius: 10.9375rem;
-    border-bottom-right-radius: 10.9375rem;
+    border-radius: 10.9375rem;
     transform: translate(0rem, 0rem);
 }
 
@@ -423,7 +365,7 @@
     border: 1.5rem solid;
     border-top: 1.732rem solid transparent;
     border-right: 1rem solid transparent;
-    border-bottom: 1.732rem solid white;
+    border-bottom: 1.732rem solid #b798c1;
     border-left: 1rem solid transparent;
     position: fixed;
     margin-bottom: 100rem;

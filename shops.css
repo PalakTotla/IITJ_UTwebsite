@@ -3,7 +3,7 @@
 
 
 body {
-    background-color: #161625;    
+    background-color: #1a1b24;    
 	/* Keep the inherited background full size. */
 	background-attachment: fixed; 
     background-repeat: no-repeat;
@@ -27,9 +27,9 @@ p {
 }
 
 .name{
-    color: rgba(170, 166, 166, 0.568);
+    color: #b798c1;
     font-family: 'Jost', sans-serif;
-    font-size: 3rem;
+    font-size: 4.5rem;
     font-weight: 100;
     line-height: 10rem;
     text-decoration : none;   
@@ -37,9 +37,9 @@ p {
 }
 
 .name:hover{
-    color: grey;
+    color: white;
     font-weight: 500;
-    font-size: 3rem;
+    font-size: 4.5rem;
     /* transition: font-size ease; */
     transition: 0.3s ease-in-out;
 }

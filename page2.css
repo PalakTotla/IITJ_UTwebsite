@@ -2,7 +2,7 @@
 
 
 body {
-    background-color : #161625;
+    background-color : #1a1b24;
 	background-attachment: fixed; 
     background-repeat: no-repeat;
 	background-size: cover;
@@ -50,7 +50,7 @@ body {
 	border-radius: 10%;
     border-style: solid;
     border-width: 0.1rem;
-    border-color: #f36574;    
+    border-color: #b798c1;    
 	position: relative;
 	z-index: 1;
 	background: inherit;
@@ -84,7 +84,7 @@ body {
 	border-radius: 10%;
     border-style: solid;
     border-width: 0.1rem;
-    border-color: rgba(12, 216, 243, 0.884);    
+    border-color: #b798c1;    
 	position: relative;
 	z-index: 1;
     background: inherit;
