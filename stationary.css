@@ -22,16 +22,15 @@ h1{
     transform: translate(-50%, -50%);
 }
 
-
 .back_button {
     color: black;
     width: 0rem;
     height: 0rem;
     border: 1.5rem solid;
-    border-top-color: transparent;
-    border-right-color: transparent;
-    border-bottom-color: white;
-    border-left-color: transparent ;
+    border-top: 1.732rem solid transparent;
+    border-right: 1rem solid transparent;
+    border-bottom: 1.732rem solid white;
+    border-left: 1rem solid transparent ;
     position: fixed;
     margin-bottom: 100rem;
     margin-right: 100rem;
@@ -42,32 +41,30 @@ h1{
     right: 6%;
     bottom: 12%;
     transform: translate(-100%, -0%);
-
 }
 
 
-.previous {    
-    color:turquoise;
-    text-decoration: none;
-    font-size: 5rem;
-    font-weight: bolder;
+.back_button1 {
+    color: black;
+    width: 0rem;
+    height: 0rem;
+    border: 1.5rem solid;
+    border-top: 1rem solid transparent;
+    border-right: 1.732rem solid turquoise;
+    border-bottom: 1rem solid transparent;
+    border-left: 1.732rem solid transparent ;
+    position: fixed;
+    margin-bottom: 100rem;
+    margin-right: 100rem;
 }
 
-
-.home {
+.button1 {
     position: absolute;
-    right: 4%;
-    bottom: 10%;
+    right: 6%;
+    bottom: 18%;
     transform: translate(-100%, -0%);
     transform: rotate(45deg);
-}
 
-.previous:hover{
-    color: thistle;
-    font-size: 6rem;
-    transition: color 0.5s ease;
-    transition: font-size 0.5s ease;
-    
 }
 
   

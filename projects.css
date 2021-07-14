@@ -366,6 +366,12 @@
     max-width: 21.3125rem;
 }
 
+.info {
+    margin-top: 0.5rem;
+    text-align: center;
+    font-size: 0.75rem;
+  }
+
 @media screen and (max-width: 61.9375rem){ 
     .section {
         width: 56.25rem;
@@ -396,6 +402,20 @@
         }
     }
 
+.search w-form button {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  background-color: transparent;
+  outline: none;
+  border: none;
+  width: 3rem;
+  text-align: center;
+  font-size: 1.75rem;
+  cursor: pointer;
+  color: #333;
+}
 
 .back_button {
     color: black;
