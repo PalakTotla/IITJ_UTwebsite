@@ -28,21 +28,20 @@ h1{
     width: 0rem;
     height: 0rem;
     border: 1.5rem solid;
-    border-top-color: transparent;
-    border-right-color: transparent;
-    border-bottom-color: white;
-    border-left-color: transparent ;
+    border-top: 1.732rem solid transparent;
+    border-right: 1rem solid transparent;
+    border-bottom: 1.732rem solid #b798c1;
+    border-left: 1rem solid transparent;
     position: fixed;
     margin-bottom: 100rem;
     margin-right: 100rem;
 }
 
-.button {
-    position: absolute;
+.Button {
+    position: fixed;
     right: 6%;
     bottom: 12%;
     transform: translate(-100%, -0%);
-
 }
 
 
@@ -51,10 +50,10 @@ h1{
     width: 0rem;
     height: 0rem;
     border: 1.5rem solid;
-    border-top-color: transparent;
-    border-right-color: turquoise;
-    border-bottom-color: transparent;
-    border-left-color: transparent ;
+    border-top: 1rem solid transparent;
+    border-right: 1.732rem solid turquoise;
+    border-bottom: 1rem solid transparent;
+    border-left: 1.732rem solid transparent ;
     position: fixed;
     margin-bottom: 100rem;
     margin-right: 100rem;
@@ -69,28 +68,6 @@ h1{
 
 }
 
-.back_button2 {
-    color: black;
-    width: 0rem;
-    height: 0rem;
-    border: 1.5rem solid;
-    border-top-color: transparent;
-    border-right-color: turquoise;
-    border-bottom-color: transparent;
-    border-left-color: transparent ;
-    position: fixed;
-    margin-bottom: 100rem;
-    margin-right: 100rem;
-}
-
-.button2 {
-    position: absolute;
-    right: 6.75%;
-    bottom: 19.75%;
-    transform: translate(-100%, -0%);
-    transform: rotate(45deg);
-
-}
 
 
   

@@ -29,15 +29,15 @@ h1{
     border: 1.5rem solid;
     border-top: 1.732rem solid transparent;
     border-right: 1rem solid transparent;
-    border-bottom: 1.732rem solid white;
-    border-left: 1rem solid transparent ;
+    border-bottom: 1.732rem solid #b798c1;
+    border-left: 1rem solid transparent;
     position: fixed;
     margin-bottom: 100rem;
     margin-right: 100rem;
 }
 
-.button {
-    position: absolute;
+.Button {
+    position: fixed;
     right: 6%;
     bottom: 12%;
     transform: translate(-100%, -0%);
