@@ -16,19 +16,13 @@ body {
     box-sizing: border-box;
   }
 
-.column {
-    float: left;
-    width: 33%;
-    padding: 0 1rem;
-}
-
 .row {margin: 0 20rem;}
 
-.row:after {
+/* .row:after {
   content: "";
   display: table;
   clear: both;
-}
+} */
 
 
 .button{  
@@ -44,44 +38,47 @@ body {
     margin-right: 1rem;
 }
 
-.container {
-	width: 15rem;
-	height: 18rem;
-	border-radius: 10%;
-    border-style: solid;
+.col{
+    width: 15rem;
+    height: 18rem;
+    border-radius: 1.5rem;
+    border-style: solid; 
     border-width: 0.1rem;
-    border-color: #b798c1;    
-	position: relative;
-	z-index: 1;
-	background: inherit;
-	overflow: hidden;  
-    backdrop-filter: blur(0.5rem);  
+    border-color: #b798c1;
+    position: relative;
+    margin: 1rem;
+    z-index: 1;
+	background: cover;
+    backdrop-filter: blur(0.5rem);
+    justify-content: center;
+    align-items: center;
 }
 
-.container:before {
+.col:before {
 	content: "";
-	position: absolute;
 	background: inherit;
+    position: absolute;
+    border-radius: 1.5rem;
 	z-index: -1;
 	top: 0;
 	left: 0;
 	right: 0;
 	bottom: 0;
-	box-shadow: inset 0 0 0 10rem rgba(255, 255, 255, 0.05);
+	box-shadow: inset 0 0 0 10rem rgba(255, 255, 255, 0.075);
 	backdrop-filter: blur(2rem);
 }
 
-.container:hover {
+.col:hover {
     transform: scale(1.3);
     backdrop-filter: blur(1rem);
     z-index: 2;
     transition: transform 0.3s;
 }
 
-.container2 {
+.col-lg-2 {
 	width: 15rem;
 	height: 18rem;
-	border-radius: 10%;
+	border-radius: 1.5rem;
     border-style: solid;
     border-width: 0.1rem;
     border-color: #b798c1;    
@@ -89,15 +86,13 @@ body {
 	z-index: 1;
     background: inherit;
 	overflow: hidden;
-    margin-top: -3.5rem;
-    margin-left: 9rem;
     backdrop-filter: blur(0.5rem);
 }
 
-.container2:before {
+/* .container2:before {
 	content: "";
 	position: absolute;
-    border-radius: 10%;
+    border-radius: 1rem;
     background: inherit;	
 	z-index: -1;
 	top: 0;
@@ -112,13 +107,13 @@ body {
     transform: scale(1.3);
     transition: transform 0.3s;
     backdrop-filter: blur(0.3rem);
-}
+} */
 
 .shop-icon {
     width: 6.25rem;
     height: 6.25rem;
     position: relative;
-    border-radius: 10%;
+    border-radius: 1.55rem;
     background-size: contain;
     background-image: url('download.jpg')
 }
@@ -132,15 +127,20 @@ body {
     letter-spacing: 0.4rem;
 }
 
+.user-name:hover{
+    color: white;
+}
+
 .box{
     position: relative;
-    margin-top: 1.875rem;
+    margin: 1.875rem 1.875rem;
     text-align: center;
     z-index: 1;  
 }
 
 .box > *{
     display: inline-block;
+    align-items: center;
     width: 10rem;
     height: 9.375rem;
 }
