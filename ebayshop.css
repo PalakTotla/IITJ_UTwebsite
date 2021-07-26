@@ -68,7 +68,7 @@
     white-space: normal;
 }
 
-.button-2:hover{
+.button-2:focus{
     background-color: hsla(248, 11.86%, 11.57%, 1);
 }
 
