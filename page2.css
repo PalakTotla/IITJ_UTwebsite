@@ -115,7 +115,9 @@ body {
     position: relative;
     border-radius: 1.55rem;
     background-size: contain;
-    background-image: url('download.jpg')
+    background-image: url('download.jpg');
+    display: flex;
+    flex-direction: column;
 }
 
 .user-name{
