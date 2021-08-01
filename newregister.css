@@ -2,6 +2,7 @@
 @import url(//db.onlinewebfonts.com/c/4de2b5d069a40f0ff08c4e88cda48a7a?family=Silk+Serif);
 
 .heading{
+    display: inline-block;
     font-family: "Plain Medium";
     font-size: 10rem;
 }
@@ -20,11 +21,13 @@
 } */
 
 .margin{
-    border:#707070;
+    border: #707070;
     border-width: 1px;
     border-style: solid;
-    margin: 1rem 1rem 1rem 1rem;
+    margin: 3rem 3rem 3rem 3rem;
     text-align: center;
+    height: 800;
+    width: 1280;
 }
 
 .bodymar{
