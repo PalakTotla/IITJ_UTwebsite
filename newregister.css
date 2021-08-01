@@ -1,0 +1,108 @@
+@import url(//db.onlinewebfonts.com/c/36e469f4478980088468fc30605f4b4c?family=Plain+Medium);
+@import url(//db.onlinewebfonts.com/c/4de2b5d069a40f0ff08c4e88cda48a7a?family=Silk+Serif);
+
+.heading{
+    font-family: "Plain Medium";
+    font-size: 10rem;
+}
+
+.and{
+    font-family: "Silk Serif";
+    font-size: 7rem;
+    font-style: normal;
+    z-index: 1;
+}
+
+/*
+.subheading{
+    font-family: "Silk Serif";
+    font-size: 10rem;
+} */
+
+.margin{
+    border:#707070;
+    border-width: 1px;
+    border-style: solid;
+    margin: 1rem 1rem 1rem 1rem;
+    text-align: center;
+}
+
+.bodymar{
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+
+.innermargin1{
+    display: grid;
+    border:#707070;
+    border-width: 1px;
+    border-style: solid;
+    padding: 3rem;
+    border-left: none;
+    border-right: none;
+    border-bottom: none;
+}
+
+.innermargin2{
+    border:#707070;
+    border-width: 1px;
+    border-style: solid;
+    border-bottom: none;
+    border-right: none;
+    display: grid;
+    grid-template-columns: 50% 25% 25%;
+    grid-template-rows: 50% 50%;
+}
+
+.box1{
+    display: grid;
+    border:#707070;
+    border-width: 1px;
+    border-style: solid;
+    padding: 3rem;
+    border-left: none;
+    border-top: none;
+    border-bottom: none;
+}
+
+.box2{
+    display: grid;
+    padding: 3rem;
+}
+
+.box3{
+    display: grid;
+    border:#707070;
+    border-width: 1px;
+    border-style: solid;
+    grid-template-rows: 50% 50%;
+    border-right: none;
+    border-bottom: none;
+    border-top: none;
+}
+
+.box4{
+    display: grid;
+    border:#707070;
+    border-width: 1px;
+    border-style: solid;
+    padding: 1rem;
+    border-left: none;
+    border-right: none;
+    border-top: none;
+}
+.box42{
+    display: grid;
+    padding: 1rem;
+}
+
+.box5{
+    display: grid;
+    border:#707070;
+    border-width: 1px;
+    border-style: solid;
+    padding: 3rem;
+    grid-column: 1 / span 3;
+    border-right: none;
+    border-left: none;
+}
