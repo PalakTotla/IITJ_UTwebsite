@@ -1,17 +1,41 @@
 @import url(//db.onlinewebfonts.com/c/36e469f4478980088468fc30605f4b4c?family=Plain+Medium);
 @import url(//db.onlinewebfonts.com/c/4de2b5d069a40f0ff08c4e88cda48a7a?family=Silk+Serif);
 
+@font-face {
+    font-family: 'silk_serifmedium';
+    src: url('silk_serif_medium-webfont.woff2') format('woff2'),
+         url('silk_serif_medium-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'silk_serifitalic';
+    src: url('silk_serif_regular_italic-webfont.woff2') format('woff2'),
+         url('silk_serif_regular_italic-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
 .heading{
     display: inline-block;
     font-family: "Plain Medium";
-    font-size: 10rem;
+    font-size: 7rem;
+    z-index: 0;
+    color: #1B1A21;
+    position: relative;
 }
 
 .and{
-    font-family: "Silk Serif";
-    font-size: 7rem;
+    font-family: "silk_serifmedium";
+    font-style: medium;
+    font-size: 10rem;
     font-style: normal;
     z-index: 1;
+    position: absolute;
+    bottom: -4.3rem;
+    left: 15.5rem;
+    color: #B798C1;
 }
 
 /*
@@ -26,8 +50,7 @@
     border-style: solid;
     margin: 3rem 3rem 3rem 3rem;
     text-align: center;
-    height: 800;
-    width: 1280;
+    z-index: -1;
 }
 
 .bodymar{
@@ -57,20 +80,38 @@
     grid-template-rows: 50% 50%;
 }
 
-.box1{
+.projects{
     display: grid;
     border:#707070;
     border-width: 1px;
     border-style: solid;
-    padding: 3rem;
     border-left: none;
     border-top: none;
     border-bottom: none;
+    background-color: #B798C1;
+    align-content: center;
 }
 
-.box2{
+.textpro{
+    font-family: "Plain Medium";
+    color: white;
+    font-size: 3rem;
+    padding-top: 7rem;
+    padding-bottom: 7rem;
+    text-align: center;
+}
+
+.map{
     display: grid;
-    padding: 3rem;
+    align-content: center;
+    padding: 1rem;
+}
+
+.textmap{
+    font-family: 'silk_serifitalic';
+    color: #1B1A21;
+    font-size: 5rem;
+    writing-mode: vertical-rl;
 }
 
 .box3{
@@ -93,19 +134,45 @@
     border-left: none;
     border-right: none;
     border-top: none;
+    background-color: #B798C1;
+    position: relative;
 }
+
+.textshops{
+    font-family: "Plain";
+    font-size: 2rem;
+    text-align: left;
+    position: inherit;
+    top: -7px;
+    left: -3px;
+    line-height: 1;
+}
+
+
 .box42{
     display: grid;
     padding: 1rem;
 }
 
-.box5{
+.ebay{
     display: grid;
     border:#707070;
     border-width: 1px;
     border-style: solid;
-    padding: 3rem;
+    padding: 2rem;
     grid-column: 1 / span 3;
     border-right: none;
     border-left: none;
+    border-bottom: none;
+    align-content: center;
+    position: relative;
+}
+
+.textebay{
+    font-family: 'silk_serifitalic';
+    color: #1B1A21;
+    font-size: 7rem;
+    align-content: center;
+    position: inherit;
+
 }
