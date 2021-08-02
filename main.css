@@ -282,8 +282,8 @@ html{
   .slider:before {
     position: absolute;
     content: "";
-    height: 40px;
-    width: 40px;
+    height: 55px;
+    width: 55px;
     left: 0px;
     bottom: 4px;
     top: 0;
@@ -309,7 +309,7 @@ html{
     -webkit-transform: translateX(24px);
     -ms-transform: translateX(24px);
     transform: translateX(24px);
-    background: white url('https://i.ibb.co/FxzBYR9/night.png');
+    background: black url('https://i.ibb.co/FxzBYR9/night.png');
     background-repeat: no-repeat;
     background-position: center;
   }
