@@ -218,3 +218,11 @@ html{
 .links{
     text-decoration: none;
 }
+
+.click{
+    font-family: 'silk_serifitalic';
+    color: var(--purple);
+    font-size: 1.5rem;
+    position: inherit;
+    top: -2.5rem;
+}
