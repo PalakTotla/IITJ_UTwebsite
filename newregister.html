@@ -1,11 +1,31 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" data-theme="dark">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="newregister.css">  
+
+    <script type="text/javascript">
+        // Wait for document to load
+        document.addEventListener("DOMContentLoaded", function(event) {
+            document.documentElement.setAttribute("data-theme", "light");      
+            // Get our button switcher
+            var themeSwitcher = document.getElementById("theme-switcher");      
+            // When our button gets clicked
+            themeSwitcher.onclick = function() {
+                // Get the current selected theme, on the first run
+                // it should be `light`
+                var currentTheme = document.documentElement.getAttribute("data-theme");      
+                // Switch between `dark` and `light`
+                var switchToTheme = currentTheme === "dark" ? "light" : "dark"      
+                // Set our currenet theme to the new one
+                document.documentElement.setAttribute("data-theme", switchToTheme);
+          }
+        });
+    </script>
+
 </head>
 
 <body>    
@@ -17,20 +37,27 @@
             </div>
             <div class="innermargin2">
                 <div class="projects">
+                    <a href="projects.html" class="links">
                     <div class="textpro">PROJECTS</div>
+                    </a>
                 </div>
                 <div class="map">
                     <div class="textmap">map</div>
                 </div>
                 <div class="box3">
                     <div class="box4">
-                        <div class="textshops">shops <br> info</div>                    </div>  
+                        <a href="shops.html" class="links">
+                        <div class="textshops">shops <br> info</div>       
+                        </a>            
+                    </div>  
                     <div class="box42">
-                
+                        <img src="images\657482_circle_512x512.png" alt="Girl in a jacket" class="spoky" id="theme-switcher">
                     </div>                 
                 </div>
                 <div class="ebay">
+                    <a href="ebayshop.html" class="links">
                     <div class="textebay">cEBAY</div>
+                    </a>
                 </div>         
             </div> 
         </div>

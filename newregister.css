@@ -1,5 +1,4 @@
 @import url(//db.onlinewebfonts.com/c/36e469f4478980088468fc30605f4b4c?family=Plain+Medium);
-@import url(//db.onlinewebfonts.com/c/4de2b5d069a40f0ff08c4e88cda48a7a?family=Silk+Serif);
 
 @font-face {
     font-family: 'silk_serifmedium';
@@ -17,12 +16,38 @@
     font-style: normal;
 }
 
+:root {
+    --bg: #fff;
+    --txt: #1B1A21;
+    --purple: #B798C1;
+    --grey: #707070;
+    --filter: invert(0%);
+}
+
+[data-theme="dark"] {
+    --bg: #1B1A21;
+    --txt: #fff;
+    --purple: #B798C1;
+    --grey: #707070;
+    --filter: invert(100%);
+}
+
+html{
+    background-color: var(--bg);
+}
+
+.body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 .heading{
     display: inline-block;
     font-family: "Plain Medium";
     font-size: 7rem;
     z-index: 0;
-    color: #1B1A21;
+    color: var(--txt);
     position: relative;
 }
 
@@ -35,7 +60,7 @@
     position: absolute;
     bottom: -4.3rem;
     left: 15.5rem;
-    color: #B798C1;
+    color: var(--purple);
 }
 
 /*
@@ -45,32 +70,35 @@
 } */
 
 .margin{
-    border: #707070;
+    border: var(--grey);
     border-width: 1px;
     border-style: solid;
     margin: 3rem 3rem 3rem 3rem;
     text-align: center;
     z-index: -1;
+    background-color: var(--bg);
 }
 
 .bodymar{
     display: grid;
     grid-template-columns: 50% 50%;
+    background-color: var(--bg);
 }
 
 .innermargin1{
     display: grid;
-    border:#707070;
+    border:var(--grey);
     border-width: 1px;
     border-style: solid;
     padding: 3rem;
     border-left: none;
     border-right: none;
     border-bottom: none;
+    background-color: var(--bg);
 }
 
 .innermargin2{
-    border:#707070;
+    border:var(--grey);
     border-width: 1px;
     border-style: solid;
     border-bottom: none;
@@ -82,19 +110,19 @@
 
 .projects{
     display: grid;
-    border:#707070;
+    border:var(--grey);
     border-width: 1px;
     border-style: solid;
     border-left: none;
     border-top: none;
     border-bottom: none;
-    background-color: #B798C1;
+    background-color: var(--purple);
     align-content: center;
 }
 
 .textpro{
     font-family: "Plain Medium";
-    color: white;
+    color: var(--bg);
     font-size: 3rem;
     padding-top: 7rem;
     padding-bottom: 7rem;
@@ -109,14 +137,14 @@
 
 .textmap{
     font-family: 'silk_serifitalic';
-    color: #1B1A21;
+    color: var(--txt);
     font-size: 5rem;
     writing-mode: vertical-rl;
 }
 
 .box3{
     display: grid;
-    border:#707070;
+    border:var(--grey);
     border-width: 1px;
     border-style: solid;
     grid-template-rows: 50% 50%;
@@ -127,14 +155,14 @@
 
 .box4{
     display: grid;
-    border:#707070;
+    border:var(--grey);
     border-width: 1px;
     border-style: solid;
     padding: 1rem;
     border-left: none;
     border-right: none;
     border-top: none;
-    background-color: #B798C1;
+    background-color: var(--purple);
     position: relative;
 }
 
@@ -146,17 +174,18 @@
     top: -7px;
     left: -3px;
     line-height: 1;
+    color: var(--txt);
 }
 
 
 .box42{
     display: grid;
-    padding: 1rem;
+    position: relative;
 }
 
 .ebay{
     display: grid;
-    border:#707070;
+    border:var(--grey);
     border-width: 1px;
     border-style: solid;
     padding: 2rem;
@@ -170,9 +199,22 @@
 
 .textebay{
     font-family: 'silk_serifitalic';
-    color: #1B1A21;
+    color: var(--txt);
     font-size: 7rem;
     align-content: center;
     position: inherit;
 
+}
+
+.spoky{
+    position: inherit;
+    width:60%;
+    height:65%;
+    filter: var(--filter);
+    top: 1.35rem;
+    left: 1.7rem;
+}
+
+.links{
+    text-decoration: none;
 }
