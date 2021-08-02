@@ -1,6 +1,19 @@
 @import url('https://fonts.googleapis.com/css2?family=Jost:wght@100;500;600;700;800;900&display=swap');
 @import url('http://fonts.googleapis.com/css?family=Poiret+One');
-
+@font-face {
+    font-family: 'silk_serifmedium';
+    src: url('fonts/silk_serif_medium-webfont.woff2') format('woff2'),
+         url('fonts/silk_serif_medium-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'silk_serifitalic';
+    src: url('fonts/silk_serif_regular_italic-webfont.woff2') format('woff2'),
+         url('fonts/silk_serif_regular_italic-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
 
 body {
     background-color: #1a1b24;    
@@ -11,10 +24,6 @@ body {
 	display: grid;
     align-items: center;
 	justify-content: center;
-}
-
-p {
-    position: absolute;   
 }
 
 .shops_list {
@@ -28,8 +37,8 @@ p {
 
 .name{
     color: #b798c1;
-    font-family: 'Jost', sans-serif;
-    font-size: 4.75rem;
+    font-family: 'silk_serifitalic';
+    font-size: 3rem;
     font-weight: 100;
     line-height: 10rem;
     text-decoration : none;   
@@ -37,9 +46,9 @@ p {
 }
 
 .name:hover{
+    font-style: 'silk_serifmedium';
     color: white;
-    font-weight: 500;
-    font-size: 4.75rem;
+    font-size: 3rem;
     /* transition: font-size ease; */
     transition: 0.3s ease-in-out;
 }
