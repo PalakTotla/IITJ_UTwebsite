@@ -5,14 +5,15 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="newregister.css">  
-
+    <link rel="stylesheet" href="main.css"> 
+    <script src="scripts.js"></script>
+    
     <script type="text/javascript">
         // Wait for document to load
         document.addEventListener("DOMContentLoaded", function(event) {
             document.documentElement.setAttribute("data-theme", "light");      
             // Get our button switcher
-            var themeSwitcher = document.getElementById("theme-switcher");      
+            var themeSwitcher = document.getElementById("slider");      
             // When our button gets clicked
             themeSwitcher.onclick = function() {
                 // Get the current selected theme, on the first run
@@ -23,10 +24,10 @@
                 // Set our currenet theme to the new one
                 document.documentElement.setAttribute("data-theme", switchToTheme);
           }
-        });
+        });        
     </script>
-</head>
 
+</head>
 <body>    
     <div class= "margin">
         <div class="heading">hello <span class="and">&</span>&nbsp welcome</div>
@@ -50,9 +51,14 @@
                         </a>            
                     </div>  
                     <div class="box42">
-                        <img src="images\657482_circle_512x512.png" alt="Girl in a jacket" class="spoky" id="theme-switcher">
-                        <div class="click">click</div>
-                    </div>                 
+                        <!-- <img src="images\moon.png" alt="Girl in a jacket" class="spoky" id="theme-switcher">   -->               
+
+                        <label id="switch" class="switch">
+                            <input type="checkbox" onchange="toggleTheme()" id="slider">
+                            <span class="slider round"></span>
+                        </label>
+                <!-- <button id="switch" onclick="toggleTheme()">Switch</button> -->
+                    </div>
                 </div>
                 <div class="ebay">
                     <a href="ebayshop.html" class="links">
@@ -62,6 +68,7 @@
             </div> 
         </div>
     </div>
+
 </body>
 
 </html>
