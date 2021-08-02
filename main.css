@@ -267,17 +267,17 @@ html{
   }
   
   /* The slider */
-  .slider {
+  /* .slider {
     position: absolute;
     cursor: pointer;
     top: 0;
     left: 0;
     right: 0;
     bottom: 0;
-    background-color: #ccc;
+    background-color: #B798C1;
     -webkit-transition: 0.4s;
     transition: 0.4s;
-  }
+  } */
   
   .slider:before {
     position: absolute;
@@ -297,13 +297,13 @@ html{
     background-position: center;
   }
   
-  input:checked + .slider {
+  /* input:checked + .slider {
     background-color: #B798C1 ;
   }
   
   input:focus + .slider {
     box-shadow: 0 0 1px #B798C1;
-  }
+  } */
   
   input:checked + .slider:before {
     -webkit-transform: translateX(24px);
